@@ -5,10 +5,12 @@ import (
 	// "math/rand"
 )
 
-func add(x int, y int) int {
-	return x + y
+func hoge(x, y int) (z, a int) {
+	z = x + y
+	a = x - y
+	return
 }
 
 func main() {
-	fmt.Println(add(2, 3))
+	fmt.Println(hoge(2, 3))
 }
