@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
+	// "math/rand"
 )
 
+func add(x int, y int) int {
+	return x + y
+}
+
 func main() {
-	fmt.Println("Hello World")
-	fmt.Println(rand.Intn(10))
+	fmt.Println(add(2, 3))
 }
